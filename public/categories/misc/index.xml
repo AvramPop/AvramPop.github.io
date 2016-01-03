@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Misc on First Hugo blog</title>
-    <link>192.168.29.1/categories/misc/</link>
+    <link>avrampop.github.io/categories/misc/</link>
     <description>Recent content in Misc on First Hugo blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 31 Dec 2015 14:10:41 +0200</lastBuildDate>
-    <atom:link href="192.168.29.1/categories/misc/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="avrampop.github.io/categories/misc/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How to setup a blog using Hugo?</title>
-      <link>/192.168.29.1/post/My-First-Post/</link>
+      <link>/avrampop.github.io/post/My-First-Post/</link>
       <pubDate>Thu, 31 Dec 2015 14:10:41 +0200</pubDate>
       
-      <guid>/192.168.29.1/post/My-First-Post/</guid>
+      <guid>/avrampop.github.io/post/My-First-Post/</guid>
       <description>
 
 &lt;p&gt;This is my first post on the site.  I hope that you like it!&lt;/p&gt;
@@ -56,10 +56,10 @@ So write down in shell:
     
     <item>
       <title>Dani Pop</title>
-      <link>/192.168.29.1/about/</link>
+      <link>/avrampop.github.io/about/</link>
       <pubDate>Thu, 31 Dec 2015 13:59:23 +0200</pubDate>
       
-      <guid>/192.168.29.1/about/</guid>
+      <guid>/avrampop.github.io/about/</guid>
       <description>
 
 &lt;h2 id=&#34;who-am-i:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Who am I?&lt;/h2&gt;
