@@ -1,6 +1,0 @@
-baseurl = "192.168.29.1"
-languageCode = "en-us"
-title = "First Hugo blog"
-newContentEditor = "nano"
-theme = "nofancy"
-pygmentsStyle = "native"
