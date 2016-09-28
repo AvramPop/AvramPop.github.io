@@ -1,127 +1,137 @@
 <!DOCTYPE html>
-<html >
-  <head>
+<html>
+
+<head>
     <meta charset="UTF-8">
     <title>Materialize CSS Project Template</title>
 
 
 
     <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css'>
 
-        <link rel="stylesheet" href="css/style.css">
-
-
+    <link rel="stylesheet" href="css/style.css">
 
 
-  </head>
 
-  <body style="background-color:  #ffccbc;">
+
+</head>
+
+<body style="background-color:  #ffccbc;">
 
     <!-- Edited version of: http://materializecss.com/templates/starter-template/preview.html
 Search for the text "TODO" in this HTML file, to know what changes you should make when you take this project off of Code Pen to run elsewhere.
 -->
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-    <title>Starter Template - Materialize</title>
+    <html>
 
-    <!-- CSS
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+        <title>Starter Template - Materialize</title>
+
+        <!-- CSS
       TODO: Uncomment these stylesheet link elements once you move this code off of Code Pen.
       These stylesheet link elements have been commented out for Code Pen, as we're including the first two stylesheets as "External CSS" using the Code Pen interface instead, and our equivalent of the "css/style.css" file will just be the CSS written in the CSS section of our Code Pen. -->
 
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link href="../../dist/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-      <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  </head>
-  <body>
-    <nav>
-  <div class="nav-wrapper">
-    <a href="index.html" class="brand-logo"><i class="material-icons">local_dining</i>Logo</a>
-    <ul class="right hide-on-med-and-down">
-      <li><a href="deserturi.html"><i class="material-icons">undo</i></a></li>
-      <li><a href="index.html"><i class="material-icons">view_module</i></a></li>
-      <li><a href="https://github.com/AvramPop/food"><i class="material-icons">settings</i></a></li>
-      <li><a href="https://ro.wikipedia.org/wiki/Pagina_principal%C4%83"><i class="material-icons">help</i></a></li>
-    </ul>
-  </div>
-</nav>
-<div class="row">
-   <div class="col s12 m7">
-     <div class="card">
-       <div class="card-image">
-         <img src="https://bananachocolate.files.wordpress.com/2013/08/lemon-ricotta-blueberry-muffins-45.jpg">
-         <span class="card-title"><h2>Muffins cu Afine</h2</span>
-       </div>
-       <div class="card-content">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="../../dist/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    </head>
 
-         <div id = "divi"> </div>
-         <div id="divi">
+    <body>
+        <nav>
+            <div class="nav-wrapper #ff8a80">
+                <a href="index.html" class="brand-logo"><i class="material-icons">local_dining</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="deserturi.html"><i class="material-icons">undo</i></a></li>
+                    <li><a href="index.html"><i class="material-icons">view_module</i></a></li>
+                    <li><a href="https://github.com/AvramPop/food"><i class="material-icons">settings</i></a></li>
+                    <li><a href="https://ro.wikipedia.org/wiki/Pagina_principal%C4%83"><i class="material-icons">help</i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row" style="display: flex; justify-content: center">
+            <div class="col s12 m7" style="align-self: center; margin-left:initial">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://bananachocolate.files.wordpress.com/2013/08/lemon-ricotta-blueberry-muffins-45.jpg">
+                        <span class="card-title"><h2>Muffins cu Afine</h2</span>
+                    </div>
+                    <div class="card-content">
 
-         <script>
-         var ingrediente = ['Ingrediente:',' ',' - 230 gr faina', ' - 230 gr zahar',' - 230 gr faina',' - 230 gr zahar',' - 1 varf cutit sare',' - 2 lingurite praf de copt',' - 3 oua',' - 200 ml lapte batut',' - 100 gr unt',' - 1 esenta vanilie',' - 250 gr afine',
-          ' - inca putin unt topit pentru uns formele'];
-           for(var i in ingrediente){
-             var x = document.getElementById('divi');
-             document.write('<p>' + ingrediente[i] + '</p>');
-           }
-         </script>
+                        <div id="divi"> </div>
+                        <div id="divi">
 
-         <div id = "preparae"> </div>
-         <div id="preparare">
+                            <script>
+                                var ingrediente = ['Ingrediente:', ' ', ' - 230 gr faina', ' - 230 gr zahar', ' - 230 gr faina', ' - 230 gr zahar', ' - 1 varf cutit sare', ' - 2 lingurite praf de copt', ' - 3 oua', ' - 200 ml lapte batut',
+                                    ' - 100 gr unt', ' - 1 esenta vanilie', ' - 250 gr afine',
+                                    ' - inca putin unt topit pentru uns formele'
+                                ];
+                                for (var i in ingrediente) {
+                                    var x = document.getElementById('divi');
+                                    document.write('<p>' + ingrediente[i] + '</p>');
+                                }
+                            </script>
+
+                            <div id="preparae"> </div>
+                            <div id="preparare">
 
 
-      <script>
-      var ingrediente = ['  1. Topim untul si il lasam sa se raceasca.','  2. Amestecam faina, zaharul, sarea si praful de copt.','  3. Batem cu mixerul iaurtul, ouale, vanilia si untul topit (racit obligatoriu altfel faceti omleta!).',
-    '  4. Turnam amestecul de faina si zahar (de la pct. 2) peste cel de oua si iaurt (de la pct. 3) si continuam sa mixam inca 2 minute',' 5. Incorporam in aluat afinele (pe care le scurgeti bine de apa dupa ce le-ati spalat, le puteti absorbi si cu un servetel sa fiti siguri!). (mie mi s-au cam dus la fund afinele, ca sa impiedicati asta dati-le inainte de a le amesteca in prin putina faina.)',
-    '6. In tava de muffins aseazam forme de muffins de hartie si le ungem cu fff putin unt topit. Turnam in fiecare forma aluat.','7.Dam la cuptor la 180C pentru 25 minute. Lasam sa se racoreasca si apoi le scoatem din forme.',];
-        for(var i in ingrediente){
-          var x = document.getElementById('divi');
-          document.write('<p>' + ingrediente[i] + '</p>');
-        }
-      </script>
+                                <script>
+                                    var ingrediente = ['  1. Topim untul si il lasam sa se raceasca.', '  2. Amestecam faina, zaharul, sarea si praful de copt.',
+                                        '  3. Batem cu mixerul iaurtul, ouale, vanilia si untul topit (racit obligatoriu altfel faceti omleta!).',
+                                        '  4. Turnam amestecul de faina si zahar (de la pct. 2) peste cel de oua si iaurt (de la pct. 3) si continuam sa mixam inca 2 minute',
+                                        ' 5. Incorporam in aluat afinele (pe care le scurgeti bine de apa dupa ce le-ati spalat, le puteti absorbi si cu un servetel sa fiti siguri!). (mie mi s-au cam dus la fund afinele, ca sa impiedicati asta dati-le inainte de a le amesteca in prin putina faina.)',
+                                        '6. In tava de muffins aseazam forme de muffins de hartie si le ungem cu fff putin unt topit. Turnam in fiecare forma aluat.',
+                                        '7.Dam la cuptor la 180C pentru 25 minute. Lasam sa se racoreasca si apoi le scoatem din forme.',
+                                    ];
+                                    for (var i in ingrediente) {
+                                        var x = document.getElementById('divi');
+                                        document.write('<p>' + ingrediente[i] + '</p>');
+                                    }
+                                </script>
 
-       </div>
-       <div class="card-action">
-         <a href="http://www.jamilacuisine.ro/briose-cu-fulgi-de-ciocolata-reteta-video/">Find more!</a>
-       </div>
-     </div>
-   </div>
- </div>
- <!--  Scripts
+                            </div>
+                            <div class="card-action">
+                                <a href="http://www.jamilacuisine.ro/briose-cu-fulgi-de-ciocolata-reteta-video/">Find more!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  Scripts
    TODO: Uncomment these script elements once you move this code off of Code Pen.
    These script elements have been commented out for Code Pen, as we're including the first two script elements as "External JavaScript" using the Code Pen interface instead, and our equivalent of the "js/init.js" file will just be the JavaScript written in the JS section of our Code Pen. -->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-   <script src="../../bin/materialize.js"></script>
-   <script src="js/init.js"></script>
- </body>
- </html>
- <script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
- <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js'></script>
+                <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+                <script src="../../bin/materialize.js"></script>
+                <script src="js/init.js"></script>
+    </body>
 
-     <script src="js/index.js"></script>
+    </html>
+    <script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js'></script>
+
+    <script src="js/index.js"></script>
 
 
 
 
- </body>
+</body>
 
- <footer class="page-footer brown">
-     <div class="container ">
-         <div class="row">
-             <div class="col l6 s12">
-                 <h5 class="red-text text-accent-1">Activam si pe retelele de socializare:</h5>
+<footer class="page-footer brown">
+    <div class="container ">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="red-text text-accent-1">Activam si pe retelele de socializare:</h5>
 
-                 <ul>
+                <ul>
 
-                     <li><a class="red-text text-accent-1" href="https://www.instagram.com/">Instagram</a></li>
-                     <li><a class="red-text text-accent-1" href="https://www.facebook.com/">Facebook</a></li>
+                    <li><a class="red-text text-accent-1" href="https://www.instagram.com/">Instagram</a></li>
+                    <li><a class="red-text text-accent-1" href="https://www.facebook.com/">Facebook</a></li>
 
-                 </ul>
-             </div>
-         </div>
-     </div>
- </footer>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 
- </html>
+</html>
