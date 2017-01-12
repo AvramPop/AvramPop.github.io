@@ -63,7 +63,7 @@ for(var i = 0; i <= input1.length; i++){
 var ne = ((2 * a1 + 2) - (b1- d1 + e1)) / 2;
      document.getElementById('masaMoleculara').innerHTML = "Masa moleculara = " + masaMolara + " uam";  
 if(isInt(ne) && ne >= 0){
-document.getElementById('nesaturareaEchivalenta').innerHTML = "Nesaturarea echivalenta: = " + ne; 
+document.getElementById('nesaturareaEchivalenta').innerHTML = "Nesaturarea echivalenta = " + ne; 
 } else {
 	document.getElementById('nesaturareaEchivalenta').innerHTML = "Substanta nu exista! (NE = " + ne + " )"; 
 }
