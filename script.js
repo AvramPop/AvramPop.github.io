@@ -65,7 +65,7 @@ var ne = ((2 * a1 + 2) - (b1- d1 + e1)) / 2;
 if(isInt(ne) && ne >= 0){
 document.getElementById('nesaturareaEchivalenta').innerHTML = "Nesaturarea echivalenta: = " + ne; 
 } else {
-	document.getElementById('nesaturareaEchivalenta').innerHTML = "Substanta nu exista!"; 
+	document.getElementById('nesaturareaEchivalenta').innerHTML = "Substanta nu exista! (NE = " + ne + " )"; 
 }
      //ok = 1;
      }
